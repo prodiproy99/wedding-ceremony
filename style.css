@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap');
 
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .nav-text-color{
     color: #3E3E3E !important;
 }
+/* .banner-bg-color{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.55) 21.92%, rgba(0, 0, 0, 0.418) 160.04%, rgba(0, 0, 0, 0.121) 160.06%) !important;
+    border-radius: 0px 0px 5px 5px !important;
+    background-blend-mode: overlay !important;
+} */
