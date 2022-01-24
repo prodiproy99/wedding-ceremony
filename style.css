@@ -18,3 +18,43 @@ body{
 .wedding-bg{
     border-radius: 30px !important;
 }
+.border-line{
+    border-right: 2px solid;
+    border-color: #070707;
+    height: 300px;
+    margin-right: 100px;
+}
+.social-icon .icons{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    justify-content: center;
+}
+.social-icon .icons li{
+    margin: 0 16px;
+}
+.social-icon .icons li a{
+    text-decoration: none;
+}
+.social-icon .icons .icon:hover{
+    background-color: orange;
+    color: white;
+    border: none;
+}
+.social-icon .icons .icon{
+    color: #222;
+    background-color: transparent;
+    width: 32px;
+    height: 32px;
+    border-radius: 32px;
+    padding: 8px;
+    border: 1px solid #070707; 
+    transition: 0.4s ease-in-out;
+}
+ 
+@media (max-width: 991.98px){
+    .border-line {
+      display: none;
+    }
+  }
