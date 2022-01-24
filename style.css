@@ -15,14 +15,31 @@ body{
 .heading-color{
     color: #231D4F;
 }
-.wedding-bg{
+.ptb{
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+.wedding-plus{
     border-radius: 30px !important;
+    transform: scale(1.2);
+    transform-origin: bottom;
+    background-color: #3F87F5;
+    position: relative;
+}
+.hot-top{
+    position: absolute;
+    top: -15px;
+    right: 15px;
+    background-color: #FF4E4E;
 }
 .border-line{
     border-right: 2px solid;
     border-color: #070707;
     height: 300px;
     margin-right: 100px;
+}
+footer{
+    margin-top: 50px !important;
 }
 .social-icon .icons{
     display: flex;
@@ -56,5 +73,26 @@ body{
 @media (max-width: 991.98px){
     .border-line {
       display: none;
+    }
+    .wedding-plus{
+        margin-top: 30px;
+        transform: scale(1);
+    }
+
+    .ptb{
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    .frequently-asked-Q,
+    .footer-title{
+        flex-direction: column-reverse;
+    }
+    .t-info{
+        text-align: center;
+    }
+    .app-icon{
+        float: none !important;
+        text-align: center;
+        padding-bottom: 50px !important;
     }
   }
