@@ -6,8 +6,15 @@ body{
 .nav-text-color{
     color: #3E3E3E !important;
 }
-/* .banner-bg-color{
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.55) 21.92%, rgba(0, 0, 0, 0.418) 160.04%, rgba(0, 0, 0, 0.121) 160.06%) !important;
-    border-radius: 0px 0px 5px 5px !important;
-    background-blend-mode: overlay !important;
-} */
+.check-color{
+    color: #5243C2;
+}
+.button-bg-color, .check-bg-color{
+    background-color: #EDECF9;
+}
+.heading-color{
+    color: #231D4F;
+}
+.wedding-bg{
+    border-radius: 30px !important;
+}
