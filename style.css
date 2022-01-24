@@ -3,21 +3,55 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+/* -----------------
+    common style
+--------------------*/
+.ptb{
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+/* -----------------
+    nav style
+--------------------*/
 .nav-text-color{
     color: #3E3E3E !important;
+}
+.width-img{
+    width: 100%;
+}
+
+/* -----------------
+    toast style
+--------------------*/
+.toast{
+    max-width: 280px;
+}
+.toast-header{
+    border-left: 8px solid #5243C2;
+}
+/* -----------------------
+    happy couple style
+--------------------------*/
+.border-line{
+    border-right: 2px solid;
+    border-color: #070707;
+    height: 300px;
+    margin-right: 100px;
+}
+/* -----------------------
+    Our Package style
+--------------------------*/
+.heading-color{
+    color: #231D4F;
 }
 .check-color{
     color: #5243C2;
 }
-.button-bg-color, .check-bg-color{
-    background-color: #EDECF9;
-}
-.heading-color{
-    color: #231D4F;
-}
-.ptb{
-    padding-top: 50px;
-    padding-bottom: 200px;
+.hot-top{
+    position: absolute;
+    top: -15px;
+    right: 15px;
+    background-color: #FF4E4E;
 }
 .wedding-plus{
     border-radius: 30px !important;
@@ -26,18 +60,12 @@ body{
     background-color: #3F87F5;
     position: relative;
 }
-.hot-top{
-    position: absolute;
-    top: -15px;
-    right: 15px;
-    background-color: #FF4E4E;
+.button-bg-color, .check-bg-color{
+    background-color: #EDECF9;
 }
-.border-line{
-    border-right: 2px solid;
-    border-color: #070707;
-    height: 300px;
-    margin-right: 100px;
-}
+/* -----------------------
+    footer style
+--------------------------*/
 footer{
     margin-top: 50px !important;
 }
@@ -69,8 +97,11 @@ footer{
     border: 1px solid #070707; 
     transition: 0.4s ease-in-out;
 }
- 
+/* -----------------------
+    media query style
+--------------------------*/
 @media (max-width: 991.98px){
+     
     .border-line {
       display: none;
     }
@@ -94,5 +125,10 @@ footer{
         float: none !important;
         text-align: center;
         padding-bottom: 50px !important;
+    }
+  }
+  @media (max-width: 767.98px) {
+    .width-img{
+       width: auto;
     }
   }
