@@ -16,19 +16,13 @@ body{
 .nav-text-color{
     color: #3E3E3E !important;
 }
+/* ------------------
+    slider style
+------------------ */
 .width-img{
     width: 100%;
 }
 
-/* -----------------
-    toast style
---------------------*/
-.toast{
-    max-width: 280px;
-}
-.toast-header{
-    border-left: 8px solid #5243C2;
-}
 /* -----------------------
     happy couple style
 --------------------------*/
@@ -62,6 +56,16 @@ body{
 }
 .button-bg-color, .check-bg-color{
     background-color: #EDECF9;
+}
+
+/* -----------------
+    toast style
+--------------------*/
+.toast{
+    max-width: 280px;
+}
+.toast-header{
+    border-left: 8px solid #5243C2;
 }
 /* -----------------------
     footer style
@@ -127,6 +131,7 @@ footer{
         padding-bottom: 50px !important;
     }
   }
+  
   @media (max-width: 767.98px) {
     .width-img{
        width: auto;
